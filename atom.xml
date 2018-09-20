@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>liangshen001</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-09-19T10:00:46.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>王亮</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/09/19/hello-world/"/>
+    <id>http://yoursite.com/2018/09/19/hello-world/</id>
+    <published>2018-09-19T10:00:46.000Z</published>
+    <updated>2018-09-19T10:00:46.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><a id="more"></a><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+      <category term="angular6" scheme="http://yoursite.com/tags/angular6/"/>
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>angular6 electron2打造桌面应用</title>
+    <link href="http://yoursite.com/2018/09/19/angular6%20electron2%E6%89%93%E9%80%A0%E6%A1%8C%E9%9D%A2%E5%BA%94%E7%94%A8/"/>
+    <id>http://yoursite.com/2018/09/19/angular6 electron2打造桌面应用/</id>
+    <published>2018-09-19T04:30:05.000Z</published>
+    <updated>2018-09-20T02:27:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://github.com/liangshen001/moon" target="_blank" rel="noopener">https://github.com/liangshen001/moon</a> 目前在维护的项目一个聊天软件，类似qq</p><a id="more"></a><p>数据在应用中的存储主要基于ngrx管理，在实际应用中主进程和渲染进程的通讯非常的繁琐，并且难以开发出脱离electron环境的web应用，所以我在electron的rpc基础上做了封装，@ngx-electron</p><p>@ngx-electron分为三个项目</p><ul><li>electron-core</li></ul><p>在渲染进程中使用 可以在渲染进程中打开一个窗体 并初始化数据，窗体可以是单例的（需要electron-main支持，否则非单例），可以在窗体之间发送和广播数据 可以对tray进行操作（需要electron-main支持，否则非单例）</p><ul><li>electron-main</li></ul><p>在主进程中使用 在主进程中创建窗体 创建tray （管理tray和所有的窗体）</p><ul><li>electron-data-shared</li></ul><p>在渲染进程中使用 可以在渲染进程 中打开一个窗体</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://github.com/liangshen001/moon&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/liangshen001/moon&lt;/a&gt; 目前在维护的项目一个聊天软件，类似qq&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="前端技术" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="angular6" scheme="http://yoursite.com/tags/angular6/"/>
+    
+      <category term="electron2" scheme="http://yoursite.com/tags/electron2/"/>
+    
+      <category term="ngrx" scheme="http://yoursite.com/tags/ngrx/"/>
+    
+      <category term="ngx-electron" scheme="http://yoursite.com/tags/ngx-electron/"/>
+    
+  </entry>
+  
+</feed>
